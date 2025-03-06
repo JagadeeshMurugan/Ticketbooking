@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chelsea FC Ticket Booking</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #002F6C, #0050A0);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background: #003C7E;
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .logo {
+            width: 80px;
+            height: auto;
+        }
+
+        .history {
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            font-size: 1.2em;
+            line-height: 1.8;
+            border-radius: 10px;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        .fixtures {
+            padding: 40px;
+            font-size: 1.2em;
+        }
+
+        .fixture-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .fixture {
+            background: white;
+            color: black;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+            width: 250px;
+            transition: transform 0.3s;
+        }
+
+        .fixture:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            background: #0047AB;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.3em;
+            font-weight: bold;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        button:hover {
+            background: #005FCC;
+            transform: scale(1.05);
+        }
+
+        .press-conference {
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            font-size: 1.2em;
+            line-height: 1.8;
+            border-radius: 10px;
+            width: 80%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Chelsea_FC.svg" alt="Chelsea Logo" class="logo">
+        <h1>Chelsea FC Ticket Booking</h1>
+    </header>
+    
+    <section class="history">
+        <h2>Club History</h2>
+        <p>Chelsea FC, founded in 1905, is one of England's most successful football clubs, winning multiple Premier League titles and two UEFA Champions League trophies. Stamford Bridge has been home to legendary players and unforgettable moments.</p>
+    </section>
+    
+    <section class="press-conference">
+        <h2>Coach's Press Conference</h2>
+        <p>"We're building a team that plays with passion and intensity. Every game is an opportunity to show our strength, and we're ready to take on any challenge. The fans are our heartbeat, and we fight for them every step of the way!" - Chelsea Head Coach</p>
+    </section>
+    
+    <section class="fixtures">
+        <h2>Upcoming Fixtures</h2>
+        <div class="fixture-list">
+            <div class="fixture">
+                <h3>Chelsea vs Manchester United</h3>
+                <p>Premier League - 18th March, 2025</p>
+                <button>Book Now</button>
+            </div>
+            <div class="fixture">
+                <h3>Chelsea vs Real Madrid</h3>
+                <p>Champions League - 2nd April, 2025</p>
+                <button>Book Now</button>
+            </div>
+            <div class="fixture">
+                <h3>Chelsea vs Arsenal</h3>
+                <p>Premier League - 10th April, 2025</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
